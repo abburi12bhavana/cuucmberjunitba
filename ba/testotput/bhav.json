@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13078000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am able to navigate onto login page",
+            "match": {
+              "location": "step.stepdef.i_am_able_to_navigate_onto_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-15T15:45:02.339Z",
+        "line": 12,
+        "name": "Login as admin",
+        "description": "",
+        "id": "login-feature;login-as-admin",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 274000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter the user as \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 20
+                }
+              ],
+              "location": "step.stepdef.i_enter_the_user_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 237000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step.stepdef.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7418000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on login button",
+            "match": {
+              "location": "step.stepdef.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see welcome",
+            "match": {
+              "location": "step.stepdef.i_should_username_as()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "This feature includes\n1)login as admin\n2)login with linda.anderson\n3)invalid login",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login/Login.feature",
+    "tags": []
+  }
+]
